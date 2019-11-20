@@ -2,8 +2,8 @@
 // declaration variables names
 
 $names = ["Hasna", "Rihab", "Laura", "Quentin", "MaximeL", "MaximeE", "Dylan", "Pierre", "Yannick", "Tony", "David", "Tristan"];
-
 shuffle($names);
+
 
 
 
@@ -22,8 +22,8 @@ shuffle($names);
     <link href="css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-
 <body>
+
     <div class="container blop">
         <div class="row">
             <?php for ($i = 0; $i < count($names) / 2; $i++) { ?>
@@ -43,6 +43,15 @@ shuffle($names);
             <?php } ?>
         </div>
     </div>
-</body>
+    <div class="text-center">
+      <a  class="rainbow-button" alt="Play" onclick="return RefreshWindow();"> </a>
+    </div>
 
+    <script type="text/javascript">
+      function RefreshWindow()
+        {
+         window.location.reload(true);
+       }
+    </script>
+  </body>
 </html>
