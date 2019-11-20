@@ -1,0 +1,36 @@
+body{
+    background-color: BLACK;
+  
+}
+
+.material-icons{
+    font-size: 13rem;
+    color: #960c0c;
+}
+
+p{
+    font-size: 40px;
+    color: gray;
+    background-color: cornsilk;
+    border-radius: 1em;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+
+
+
+
+}
+.icons {
+   transform: rotateX(180deg);
+}
+.blop{
+    margin: 10rem;
+}
+
+div {
+    display: inline;
+    padding:30px 30px 0 30px ;
+}
